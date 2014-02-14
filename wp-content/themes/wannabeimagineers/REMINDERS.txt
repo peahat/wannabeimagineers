@@ -1,0 +1,1 @@
+Add a screenshot.png file to this folder: DIMENSIONS 600 x 450 px
