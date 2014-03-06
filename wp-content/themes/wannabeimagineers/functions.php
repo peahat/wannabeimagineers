@@ -2,6 +2,7 @@
 
 function theme_styles() {
 
+	wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.css' );
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/style.css' );
 
 }
