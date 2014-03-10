@@ -37,6 +37,10 @@ body {
 
 h3 {
 	background-color: #ab2155;
+	font-size: 2em;
+ 	line-height: 1.25em;
+ 	margin: 1% 0;
+ 	color: white;
 }
 
 header {
@@ -75,6 +79,7 @@ header {
 	background-color: #b26559;
 	width: 25%;
 	float: left;
+	text-align:center;
 }
 
 /* ==========================================================================
@@ -85,17 +90,16 @@ header {
 	vertical-align: middle;
 	float: center;
 	background-color: #779852;
-	width: 100%;
-
+	width: 100%; 
 	/*display: flex; ??? */
 }
 
 .page-menu li {
-	margin: 0;
+	margin: 1% 0 0% 1%;
 	padding: 0;
 	/* display: inline-block; */
 	background-color: #158596;
-	width: 25%;
+	width: 30%;
 	float: left;
 }
 

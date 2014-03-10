@@ -32,4 +32,6 @@
 ?>
 </dv>
 
+<br>
+
 <?php get_footer(); ?>
