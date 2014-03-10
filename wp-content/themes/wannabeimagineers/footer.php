@@ -1,4 +1,9 @@
-		<p>This is the footer</p>
-	<?php wp_footer ;?>
+		<footer>
+				<p>This is the footer</p>
+				<div id="copyright">
+					<p>&copy; Copyright <?php echo date('Y'); ?> <a href="#">__________</a>. All Rights Reserved.</p>
+				</div>
+			<?php wp_footer ;?>
+		</footer>
 	</body>
 </html>

@@ -14,7 +14,9 @@
 	</head>
 	<body>
 
+<header>
 <p>This is the header</p>
+</header>
 
 <div class="main-nav"> 
 <?php 

@@ -35,18 +35,28 @@ body {
 	margin: auto;
 }
 
+h3 {
+	background-color: #ab2155;
+}
+
+header {
+	background-color: #262845;
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
 
 header {
-	margin: 4% 0 0 0; 
+	/* margin: 4% 0 4% 0; */
+	/* padding: 0; */
 	display: table;
 	width: 100%;
-	position: fixed;
+	/* position: fixed; */
 	width: 100%;
 	top: 0;
 	z-index: 100;
+	float: center;
 }
 
 .main-nav {
@@ -66,5 +76,47 @@ header {
 	width: 25%;
 	float: left;
 }
-	
 
+/* ==========================================================================
+   Homepage
+   ========================================================================== */
+
+.page-menu {
+	vertical-align: middle;
+	float: center;
+	background-color: #779852;
+	width: 100%;
+
+	/*display: flex; ??? */
+}
+
+.page-menu li {
+	margin: 0;
+	padding: 0;
+	/* display: inline-block; */
+	background-color: #158596;
+	width: 25%;
+	float: left;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+	background-color: #555451;
+    margin-top: 2%;
+	padding: 2% 0;
+}
+
+#copyright {
+    text-align: center;
+}
+	
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.blog-post {
+	background-color: #785956;
+}
