@@ -16,6 +16,7 @@
 
 <p>This is the header</p>
 
+<div class="main-nav"> 
 <?php 
 
 	$args = array(
@@ -25,3 +26,4 @@
 	wp_nav_menu( $args );
 
 ?>
+</div>
