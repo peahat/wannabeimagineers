@@ -30,7 +30,7 @@
 	wp_page_menu( $args );
 
 ?>
-</dv>
+</div>
 
 <br>
 
