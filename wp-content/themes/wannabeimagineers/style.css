@@ -39,9 +39,10 @@ body {
 h3 {
 	background-color: #ab2155;
 	font-size: 2em;
- 	line-height: 1.25em;
- 	margin: 1% 0;
- 	color: white;
+	line-height: 1.5;
+	margin: 0% 0;
+	color: white;
+	padding: 0 2%;
 }
 
 header {
@@ -124,7 +125,7 @@ header {
 }
 
 .container {
-	background-color: red;
+	background-color: #984955;
 }
 
 /* ==========================================================================
@@ -148,13 +149,23 @@ footer {
    ========================================================================== */
 
 .blog-post {
-	background-color: #785956;
-	width: 96%;
+	background-color: #bbb554;
+	/* width: 96%; */
 	float: center;
-	position: relative;
-	padding: 0 2% 2%;
-	margin: 2% 0 0 0;
-	}
+	/* position: relative; */
+	/* padding: 0 2% 2%; */
+	margin: 6% 0 0 0;
+}
+
+#blogposttitle {
+	background-color: red;
+}
+
+#blogpostcontent {
+	background-color: orange;
+	padding: 1% 2% 1% 2%;
+	margin: 0 0 2% 0;
+}
 
 	/* ==========================================================================
    Media Queries
