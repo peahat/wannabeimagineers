@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<p>This is the front-page.php</p>
 
 <!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -14,8 +13,27 @@
 
 <?php endif; ?> -->
 
+<div class="container">
+	<div id="twobigbuttons">
+		<div id="blogbutton" class="bigbutton clickableparentdiv">
+			<a href="/wannabeimagineers/blog/">Blog</a>
+		</div>
+		<div id="workbutton" class="bigbutton clickableparentdiv">
+			<a href="/wannabeimagineers/work/">Work</a>
+		</div>
+		
+	</div>
+	
+	<!-- keep adding page content here-->
 
-<div class='page-menu'>
+	<div id="aboutbutton" class="clickableparentdiv">
+		<a href="/wannabeimagineers/About/">About</a>
+	</div>
+	
+	<!-- don't add any page content after this point-->
+</div>
+
+<!-- <div class='page-menu'>
 <?php $args = array(
     'depth'       => 0,
 	'sort_column' => 'menu_order',
@@ -30,8 +48,8 @@
 	wp_page_menu( $args );
 
 ?>
-</div>
+</div> -->
 
-<br>
+
 
 <?php get_footer(); ?>

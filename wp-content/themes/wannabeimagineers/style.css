@@ -33,6 +33,7 @@ html {
 body {
 	width: 90%;
 	margin: auto;
+	max-width: 1000px;
 }
 
 h3 {
@@ -80,6 +81,7 @@ header {
 	width: 25%;
 	float: left;
 	text-align:center;
+	line-height: 2em;
 }
 
 /* ==========================================================================
@@ -94,14 +96,35 @@ header {
 	/*display: flex; ??? */
 }
 
-.page-menu li {
-	margin: 1% 0 0% 1%;
+.bigbutton {
+	cursor: pointer;
 	padding: 0;
 	/* display: inline-block; */
 	background-color: #158596;
-	width: 30%;
-	/* float: left; */
+	width: 49%;
+	float: left;
 	line-height: 30em;
+}
+
+#blogbutton {
+	margin: 2% 1% 2% 0;
+}
+
+#workbutton {
+	margin: 2% 0 2% 1%;
+}
+
+#aboutbutton {
+	cursor: pointer;
+	clear:left;
+	background-color: #846546;
+	float: center;
+	line-height: 5em;
+	width: 100%;
+}
+
+.container {
+	background-color: red;
 }
 
 /* ==========================================================================
@@ -109,9 +132,11 @@ header {
    ========================================================================== */
 
 footer {
+	clear: left;
 	background-color: #555451;
     margin-top: 2%;
 	padding: 2% 0;
+	float: center;
 }
 
 #copyright {
@@ -124,10 +149,11 @@ footer {
 
 .blog-post {
 	background-color: #785956;
-	width: 90%;
+	width: 96%;
 	float: center;
 	position: relative;
 	padding: 0 2% 2%;
+	margin: 2% 0 0 0;
 	}
 
 	/* ==========================================================================
@@ -162,19 +188,23 @@ footer {
 		text-align:center;
 	}
 
-	.page-menu {
-		vertical-align: middle;
-		float: center;
-		background-color: #779852;
-		/*display: flex; ??? */
-	}
-
-	.page-menu li {
-		margin: 1% 0 0 0%;
+	.bigbutton {
+		cursor: pointer;
+		margin: 0% 0% 1% 1%;
 		padding: 0;
 		/* display: inline-block; */
 		background-color: #158596;
-		line-height: 4em;
+		width: 49%;
+		float: left;
+		line-height: 30em;
+	}
+
+	#aboutbutton {
+		cursor: pointer;
+		clear:left;
+		background-color: #846546;
+		float: center;
+		line-height: 5em;
 		width: 100%;
 	}
 
