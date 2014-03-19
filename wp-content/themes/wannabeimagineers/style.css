@@ -154,11 +154,11 @@ footer {
 	float: center;
 	/* position: relative; */
 	/* padding: 0 2% 2%; */
-	margin: 6% 0 0 0;
+	margin: 5% 0 0 0;
 }
 
-#blogposttitle {
-	background-color: red;
+#blogposttitle a {
+	color: white;
 }
 
 #blogpostcontent {
