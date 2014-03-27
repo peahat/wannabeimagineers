@@ -1,5 +1,4 @@
 		<footer>
-				<p>This is the footer</p>
 				<div id="copyright">
 					<p>&copy; Copyright <?php echo date('Y'); ?> <a href="#">__________</a>. All Rights Reserved.</p>
 				</div>

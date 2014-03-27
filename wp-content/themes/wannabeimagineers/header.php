@@ -11,11 +11,21 @@
 				?>
 			</title>
 			<?php wp_head(); ?>
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600' rel='stylesheet' type='text/css'>
+
 	</head>
 	<body>
 
 <header>
-<p>This is the header</p>
+	<div class="container">
+		<div id="logo">
+
+			<img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Wannabe Imagineers" width="100%" height="" />
+
+		</div>
+	</div>
+
 </header>
 
 <div class="main-nav"> 

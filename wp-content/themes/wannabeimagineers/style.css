@@ -37,6 +37,10 @@ body {
 	background-color: #191970; /* temporary */
 }
 
+h1, h2, h4, h5, h6 {
+	font-family: 'Vevey';
+}
+
 h3 {
 	font-family: 'Vevey';
 	background-color: #00B2EE;
@@ -47,8 +51,32 @@ h3 {
 	padding: 0 3%;
 }
 
+h4 {
+	font-family: 'Vevey';
+	font-size: 2.5em;
+	line-height: 1.5;
+	margin: 0% 0;
+	color: white;
+	padding: 0 3%;
+}
+
+p {
+	 font-size: 1em;
+	 font-family: 'Open Sans', sans-serif;
+ }
+
+ small {
+ 	font-family: 'Open Sans', sans-serif, italic;
+ }
+
 header {
 	background-color: #262845;
+	width:  90%;
+}
+
+#logo {
+	float: center;
+	padding: 0 0 1%;
 }
 
 /* ==========================================================================
@@ -156,7 +184,7 @@ header {
 
 .bigbutton a, #aboutbutton a {
 	color: #ffffff;
-	text-decoration: ;
+	text-decoration: none;
 }
 
 
@@ -203,7 +231,7 @@ footer {
 	background-color: #FFFAF0;
 	padding: 1% 3% 1% 3%;
 	margin: 0 0 2% 0;
-	line-height: 1.5em;
+	line-height: 1.6em;
 }
 
 	/* ==========================================================================
@@ -229,7 +257,7 @@ footer {
 	}
 
 	.main-nav li {
-		margin: 0;
+		margin: 0 0 2% 0;
 		padding: 0;
 		/* display: inline-block; */
 		/* background-color: #b26559; */
