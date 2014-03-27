@@ -9,9 +9,6 @@
 
 get_header(); ?>
 
-<p>This is the work.php</p>
-
-
 <?php 
 
 	$args = array(
@@ -22,6 +19,7 @@ get_header(); ?>
 
 ?>
 
+<div class = "container" id ="workpage">
 
 <?php if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
@@ -40,7 +38,7 @@ get_header(); ?>
 		<?php the_field( 'description' ); ?>
 
 		<p>
-			<a class="btn blue" href="<?php the_permalink(); ?>" style="background-color: <?php the_field( 'button_color' ); ?>">
+			<a class="btn" href="<?php the_permalink(); ?>" style="background-color: <?php the_field( 'button_colour' ); ?>">
 				View Project &rarr;
 			</a>
 		</p>
@@ -52,5 +50,7 @@ get_header(); ?>
 	<p>There are no posts or pages here</p>
 
 <?php endif; ?>
+
+</div>
 
 <?php get_footer(); ?>
